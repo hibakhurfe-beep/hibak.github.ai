@@ -94,6 +94,83 @@
       <a href="#contact">Nala Soo Xidhiidh</a>
     </div>
   </header>
+ <nav aria-label="Main navigation">
+    <div class="nav-inner"></div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero-card">
+        <h2>Kusoo Dhawoow — Aan Bilaabno Mashruucaaga</h2>
+        <p class="lead">Waxaan kuu dhiseynaa website casri ah oo responsive ah, oo ku habboon ganacsiga, ururada, ama mashruucaaga shaqsiyadeed. Ku dar sawirro, bogag dheeraad ah, iyo xitaa e-commerce marka aad diyaar tahay.</p>
+        <ul>
+          <li>Naqshad nadiif ah oo casri ah</li>
+          <li>Responsive (telefoon & tablet & desktop)</li>
+          <li>Fudud in la maamulo oo la cusbooneysiiyo</li>
+        </ul>
+        <a class="cta" href="#contact">Bilow Hadda</a>
+      </div>
+
+      <aside class="hero-card">
+        <h3>Macluumaad Degdeg ah</h3>
+        <p class="muted">Email: info@websitegaaga.com</p>
+        <p class="muted">Telefoon: +252 61 0000000</p>
+        <div style="margin-top:12px">
+          <strong>Waqti shaqo:</strong>
+          <p class="muted" style="margin:6px 0 0 0">Isniin - Jimce, 09:00 - 17:00</p>
+        </div>
+      </aside>
+    </section>
+
+    <section id="services" class="grid">
+      <div class="card">
+        <h3>Dhis Websaydh</h3>
+        <p>Waxaan dhisnaa websaydh la jaanqaadaya baahidaada — bog fudud ama mid ganacsi oo ballaaran (e-commerce).</p>
+      </div>
+      <div class="card">
+        <h3>Naqshadeyn</h3>
+        <p>Naqshadeyn nadiif ah, UX la tijaabiyey, iyo interface soo jiidasho leh.</p>
+      </div>
+      <div class="card">
+        <h3>Taageero & Tababar</h3>
+        <p>Tababar ku saabsan sida loo maamulo website-ka iyo taageero farsamo hadhow.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-wrap">
+      <div>
+        <h2>La Soo Xidhiidh</h2>
+        <p class="muted">Buuxi foomka hoose ama si toos ah noola soo xiriir. Waxaan kuugu soo jawaabi doonaa 1-2 maalmood oo shaqo ah.</p>
+        <div style="margin-top:12px" class="card">
+          <h3>Address</h3>
+          <p class="muted">Hargeisa, Somaliland (tusaale)</p>
+          <h3 style="margin-top:12px">Xog Dheeraad ah</h3>
+          <p class="muted">Waxaad codsan kartaa SEO, hosting, ama ikhtiyaarka WordPress.</p>
+        </div>
+      </div>
+
+      <form action="#" onsubmit="event.preventDefault(); alert('Mahadsanid! Fariintaada waa la diiwaan geliyey.');">
+        <label for="name">Magacaaga</label>
+        <input id="name" type="text" placeholder="Magacaaga" required>
+
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="email@tusaale.com" required>
+
+        <label for="message">Fariinta</label>
+        <textarea id="message" placeholder="Waa maxay mashruucaaga?" required></textarea>
+
+        <button class="btn" type="submit">Soo Dir</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Website-gaaga. Dhamaan xuquuqdu way xifdiyeen.</p>
+    <p class="muted">Hagaaji: midab, qoraal, ama ku dar sawirro — ii sheeg waxa aad rabto.</p>
+  </footer>
+</body>
+</html>
+
 
   <nav aria-label="Main navigation">
     <div class="nav-inner"></div>
